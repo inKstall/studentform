@@ -1,0 +1,5 @@
+url: inkstall.github.io/studentform
+build:
+  artifacts:
+    baseDirectory: project/dist
+    configPath: .github/workflows/pages.yml
