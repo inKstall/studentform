@@ -5,13 +5,13 @@ import { getStorage } from 'firebase/storage';
 
 // Get Firebase configuration from environment variables or use fallback values for production
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_FIREBASE_API_KEY || "AIzaSyDYMXMQ-YoKuuJgGQCZeS5GFOQhqEhZVvM",
-  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN || "inkstall-enrollment.firebaseapp.com",
-  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID || "inkstall-enrollment",
-  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET || "inkstall-enrollment.appspot.com",
-  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID || "1234567890",
-  appId: import.meta.env.VITE_FIREBASE_APP_ID || "1:1234567890:web:abcdef1234567890",
-  measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID || "G-ABCDEF1234"
+  apiKey: "AIzaSyCwbbwDTUIw0NeHpaeOKL2fMn2JsiEX-f4",
+  authDomain: "questo-59b77.firebaseapp.com",
+  projectId: "questo-59b77",
+  storageBucket: "questo-59b77.firebasestorage.app",
+  messagingSenderId: "104723841839",
+  appId: "1:104723841839:web:de544b70f6619d185857da",
+  measurementId: "G-VPJRRTR992"
 };
 
 // Initialize Firebase
