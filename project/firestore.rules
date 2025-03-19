@@ -1,0 +1,10 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /enrollments/{enrollment} {
+      allow create: if request.auth != null;  // Only allow authenticated users to create enrollments
+      allow read: if request.auth != null;    // Only allow authenticated users to read enrollments
+      allow update, delete: if false;         // Prevent updates and deletions
+    }
+  }
+}
